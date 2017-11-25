@@ -1,0 +1,51 @@
+@charset "UTF8"
+/*
+2017年11月8日
+Author：wers
+*/
+html{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+	// font-size: 30px;
+	/* background-color: #888; */
+}
+body,div,span,p,ul,ol,li,dl,dd,dt,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+img,input,textarea{
+	margin: 0;
+	padding: 0;
+	outline-style: none;
+	border: 0 none;
+}
+a{
+	text-decoration: none;
+	color:white;
+	display:block;
+}
+a:link,
+a:visited,
+a:after,
+a:before,
+a:active{
+	text-decoration: none;
+	color:white;
+}
+.clearfix:after{
+	height: 0;
+	line-height: 0;
+	content: '';
+	display: inline-block;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix{
+	zoom: 1;
+}
